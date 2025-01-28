@@ -25,7 +25,7 @@ Este é um projeto de exemplo que implementa uma API RESTFUL simples em Kotlin c
 Os itens neste projeto são representados pela classe `Item`. O modelo básico é:
 
 ```kotlin
-data class Item(
+class Item(
     val id: Int, // Identificador único do item.
     var nome: String, // Nome do item.
     var descricao: String // Descrição detalhada do item.
